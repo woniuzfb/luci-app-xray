@@ -1,0 +1,9 @@
+# action.yml
+name: 'build luci-app-xray'
+description: 'build luci-app-xray with openwrt docker container action'
+outputs:
+  date:
+    description: 'luci-app-xray build date'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
